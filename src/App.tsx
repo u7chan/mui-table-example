@@ -1,8 +1,10 @@
+import { Container, Typography } from '@mui/material'
+
 function App() {
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <Container>
+      <Typography variant="h3">mui-table-example</Typography>
+    </Container>
   )
 }
 
